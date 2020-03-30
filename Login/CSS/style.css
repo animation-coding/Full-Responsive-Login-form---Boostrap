@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body
+{
+   font-family: 'Roboto', sans-serif; 
+}
+.form_bg
+{
+    background: linear-gradient(to bottom,
+    rgb(2,1,87), rgb(0,1,44));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.form_horizontal
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.form_horizontal .form_icon
+{
+    color: #fff;
+    font-size: 100px;
+    line-height: 85px;
+    margin: 0 0 13px;
+}
+.form_horizontal .title
+{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 35px 0;
+
+}
+.form_horizontal .form-group
+{
+    margin: 0 0 10px;
+    position: relative;
+}
+.form_horizontal .input-icon
+{
+    position:absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.form_horizontal .form-control
+{
+    color: rgba(0,0,0,0.7);
+    background-color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    height: 48px;
+    padding: 2px 15px 2px 48px;
+    border:none;
+    border-radius: 50px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.form_horizontal .form-control:focus,
+.form_horizontal .form-control:focus::placeholder
+{
+    color:rgb(31,30,30);
+}
+.form_horizontal .btn
+{
+    color: #fff;
+    background: rgb(31,30,30);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+
+.form_horizontal .btn:active
+{
+    background-color: rgb(2,1,87);
+    color: #fff;
+    border: none !important;
+}
+
+.form_horizontal .btn:hover
+{
+    background-color:#fff;
+    color:  rgb(2,1,87);
+    border: none !important;
+}
+.form_horizontal .btn:focus
+{
+    border: none !important;
+    outline: none;
+}
+
+.form_horizontal .form-options
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.form_horizontal .form-options li a
+{
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px;
+    display: block;
+}
+
+.form_horizontal .form-options li a i
+{
+    font-size: 12px;
+    transition: all 0.4s;
+}
+
+.form_horizontal .form-options li a:hover i
+{
+    margin-left: 5px;
+}
+
+
+
+
+
